@@ -1,0 +1,29 @@
+.navbar {
+    width: 100%;
+}
+
+#nav {
+    display: flex;
+    list-style-type: none;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: calc(50px + 2vmin);
+    overflow: hidden;
+    font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+    padding: 100px;
+    overflow: hidden;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
