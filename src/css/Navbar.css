@@ -1,14 +1,18 @@
 .navbar {
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
+@import url('https://fonts.googleapis.com/css?family=VT323');
 #nav {
     display: flex;
-    margin: 10px;
     align-items: center;
     justify-content: center;
-    font-size: calc(50px + 2vmin);
+    font-size: calc(70px + 2vmin);
     font-weight: bold;
+    font-family: 'VT323', monospace;
+    width:80%;
 }
 
 nav {
@@ -17,12 +21,15 @@ nav {
 }
 
 li {
-    padding: 100px;
+    padding: 35px;
+    width: 100%;
 }
 
 .nav-link a {
     text-decoration: none;
     color: white;
+    display: flex;
+    justify-content: center;
 }
 
 li:hover {

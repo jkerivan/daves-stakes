@@ -8,10 +8,12 @@
 
 .content {
     width: 50%;
-    height: 100%;
+    height: 70%;
     display: static;
     justify-content: center;
     align-items: center;
+    padding-top: 50px;
+    padding-bot: 50px;
 
 }
 

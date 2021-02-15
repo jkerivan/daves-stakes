@@ -11,7 +11,7 @@ const Pool = () => {
             setMessages(extractPoolInfo(resp.data));
         })
         .catch((err) => {
-            console.log(err)
+            console.log(err);
         });
     }
 
@@ -28,7 +28,7 @@ const Pool = () => {
         const roaLifeTime = "ROA Lifetime: " + data.data.roa_lifetime + "%\n";
         const roa = "ROA Month: " + data.data.roa + "%\n";
         const delegators = "Delegators: " + data.data.delegators + "\n";
-        const activeStake = "Active Stake: " + formatter.format(data.data.active_stake / 1000000) + "\n";
+        const activeStake = "Active Stake: " + formatter.format(data.data.active_stake / 1000000) + " ADA \n";
         const blockEstimate = "Block Estimate: " + data.data.blocks_estimated + "\n";
         const blockEpoch = "Blocks in Epoch: " + data.data.blocks_epoch + "\n";
         const blockLifetime = "Blocks Lifetime: " + data.data.blocks_lifetime;
