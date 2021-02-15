@@ -13,7 +13,7 @@ function App() {
     <Router history={history}>
         <div className="App">
             <Navbar/>
-            <Content />
+            <Content/>
         </div>
     </Router>
   );

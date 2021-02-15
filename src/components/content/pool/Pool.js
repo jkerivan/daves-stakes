@@ -8,8 +8,6 @@ const Pool = () => {
     const getData = () => {
         axios.get(adapools)
         .then((resp) => {
-            const myString = "hello \n";
-            console.log(myString + "whats up");
             setMessages(extractPoolInfo(resp.data));
         })
         .catch((err) => {
