@@ -25,8 +25,8 @@ const Pool = () => {
         const name = "Pool Name: " + data.data.db_name  + "\n";
         const created = "Created: " + data.created + "\n";
         const updated = "Updated: " + data.updated + "\n";
-        const roaLifeTime = "ROA Lifetime: " + data.data.roa_lifetime + "%" + "\n";;
-        const roa = "ROA Month: " + data.data.roa + "%" + "\n";
+        const roaLifeTime = "ROA Lifetime: " + data.data.roa_lifetime + "%\n";
+        const roa = "ROA Month: " + data.data.roa + "%\n";
         const delegators = "Delegators: " + data.data.delegators + "\n";
         const activeStake = "Active Stake: " + formatter.format(data.data.active_stake / 1000000) + "\n";
         const blockEstimate = "Block Estimate: " + data.data.blocks_estimated + "\n";
