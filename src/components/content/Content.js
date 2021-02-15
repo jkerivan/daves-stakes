@@ -6,7 +6,6 @@ import News from './news/News.js'
 import Pool from './pool/Pool.js'
 import Home from './Home.js'
 import {Router, Switch, Route, useLocation} from 'react-router-dom';
-import { history } from "../../helpers/history";
 
 
 const Content = ()=> {
@@ -19,7 +18,6 @@ const Content = ()=> {
    }, []);
 
   return (
-  <Router history={history}>
     <div className="content-container">
         <div className="content">
             <Switch>
@@ -30,7 +28,6 @@ const Content = ()=> {
             </Switch>
         </div>
     </div>
-    </Router>
   );
 }
 
