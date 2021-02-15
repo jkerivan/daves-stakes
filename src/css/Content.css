@@ -1,0 +1,55 @@
+.content-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    vertical-align: top;
+}
+
+.content {
+    width: 50%;
+    height: 100%;
+    display: static;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.content-typewriter {
+    white-space: pre-wrap
+}
+
+.content-blur {
+    backdrop-filter: blur(7px);
+    opacity: .95;
+}
+
+.content-backdrop {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.content-header {
+    display: flex;
+    justify-content: center;
+    font-size: calc(30px + 2vmin);
+}
+
+@import url('https://fonts.googleapis.com/css?family=VT323');
+.content-about {
+  font-family: 'VT323', monospace;
+  padding: 1em 2em;
+  font-size: calc(15px + 2vmin);
+}
+
+#cursor {
+  border-left: .1em solid #00FF41;
+  animation: blink .7s steps(1) infinite;
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
